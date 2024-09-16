@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> hatdog by gab </title>
+</head>
+
+<head>
+  <style>
+ .menu {
+  display: flex;
+ background-color: grey;
+}
+
+  .menu div {
+   margin: 0;
+   padding: 14px 20px;)
+}
+
+.menu a {
+color: white;
+text-align: center;
+display: block;
+}
+
+</style>
+</head>
+
+
+<body>
+<div class="menu">
+<div><a href="index.html">Introduction</a></div>
+<div><a href="2ndpage.html">hobbies</a></div>
+<div><a href="3rdpage.html">likes and dislikes</a> </div>
+<div><a href="4thpage.html">gallery</a></div>
+   </div>
+ </body>
+ 
+<head>
+<body style="background-color:blanchedalmond;"></body>
+<br>
+<br>
+
+<center>
+<h2 style="background-color:rgb(200, 200, 200);"> WHAT ARE MY HOBIES? </h2>
+</center>
+<ul>
+  <li>Gym</li>
+  <li>Online Games</li>
+  <li>Cycling/Biking</li>
+  <li>Basketball</li>
+  <li>Play Guitar</li>
+  <li> <b>Mahalin siya</b></li>
+</ul>
+
+<style>
+p {
+border: 5px solid black;
+  padding: 20px;
+}
+
+button {
+border: 3px solid black;
+  padding: 10px;
+}
+  .highlight {
+      background-color: burlywood;
+  }
+  
+video {
+  border: 4px solid black;
+     padding: 0px;
+}
+  
+  
+</style>
+</head>
+
+
+<p class="highlight"> I play online games a lot. My total screentime in a day is probably above 10hours. I play basketball and I ride my bike pretty often too. I only play guitar when I'm bored. I sleep when I'm bored too and don't know what to do in a day. I rarely do my schoolworks on time because i find myself much more useful and productive when I cram. I go to the gym 4 days a week to absolutely destroy my body <b> RAAAAAHHHHHHH!!!!!!!!</b> </p>
+<br>
+
+<button onclick="location.reload();">Refresh</button>
+
+<br>
+<center>
+<h2>Here's a clip of my back <br>(absolutely so jacked)</h2> <br>
+<video  width="320" height="200" controls>
+<source src="vid/backflex.mp4" type="video/mp4">
+</video>
+</center>
+
+<br>
+<br>
+<button onclick="location.reload();">Refresh</button> 
+<br>
+
+<center>
+<h2>A clip of my gameplay</h2>
+<video width="310" height="200" controls>
+  <source src="vid/gameplay.mp4" type="video/mp4">
+</video>
+</center>
+
+<br>
+<button onclick="location.reload();">refresh</button>
+<br>
+
+<center>
+<h2>My bike</h2></h2> 
+<video muted width="320" height="200" controls>
+  <source src="vid/bike2.mp4" type="video/mp4">
+</video>
+</center>
+<br>
+
+<head>
+<style>
+ #fps-counter {
+position: fixed;
+top: 5px;
+right: 5px;
+color: black;
+padding: 5px;
+font-size: 20px;
+   
+ }
+ </style>
+</head>
+<body>
+
+<div id="fps-counter"><b>FPS: 0</b></div>
+
+  <script>
+ let lastFrameTime = performance.now();
+ let frameCount = 0;
+ let fps = 0;
+
+  function updateFPS() {
+  const now = performance.now();
+frameCount++;
+const deltaTime = now - lastFrameTime;
+
+ 
+  if (deltaTime >= 1000) {
+ fps = Math.round((frameCount * 1000) / deltaTime);
+ frameCount = 0;
+ lastFrameTime = now;
+
+  document.getElementById('fps-counter').textContent = `FPS: ${fps}`;
+}
+
+ requestAnimationFrame(updateFPS);
+}
+
+ requestAnimationFrame(updateFPS);
+  </script>
+
+</body>
+</html>
