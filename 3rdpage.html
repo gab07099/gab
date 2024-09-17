@@ -49,26 +49,21 @@ border: 5px solid black;
 </head>
 
 <head>
-  <style>
+<style>
         .container {
-            display: flex;
-            flex-direction: column; /* Arrange rows vertically */
-            gap: 10px; /* Space between rows */
-        }
-        .row {
-            display: flex;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* Two columns */
             gap: 10px; /* Space between images */
         }
-        .row img {
-            max-width: 100%; /* Ensure images scale down if needed */
+        .container img {
+            width: 100%; /* Ensure images fit within their grid cell */
             height: auto; /* Maintain aspect ratio */
             border: 2px solid #ddd; /* Optional: Border around images */
         }
     </style>
   </head>
 <body>
-  <div class="container">
-        <div class="row">
+<div class="container">
   Adobo
   <img src="pic/images.jpeg" alt="images" >
  Sinigang
@@ -81,10 +76,9 @@ border: 5px solid black;
  <img src="pic/images (4).jpeg" alt="images">
   T bone steak
  <img src="pic/images (5).jpeg" alt="images">
-  </div>
+
 <br>
 <br>
-  <div class="row">
   <b>KALABASA</b>
    <img src="pic/images (6).jpeg" alt="images">
   Talong
@@ -98,7 +92,7 @@ border: 5px solid black;
   Ampalaya
 <img src="pic/images (8).jpeg" alt="images">
     </div>
-    </div>
+   
 
 
 
