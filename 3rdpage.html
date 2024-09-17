@@ -49,21 +49,22 @@ border: 5px solid black;
 </head>
 
 <head>
-<style>
-        .container {
+ <style>
+        .grid-container {
             display: grid;
             grid-template-columns: repeat(2, 1fr); /* Two columns */
-            gap: 10px; /* Space between images */
+            grid-template-rows: repeat(6, auto);  /* Six rows */
+            gap: 10px; /* Space between the images */
         }
-        .container img {
-            width: 100%; /* Ensure images fit within their grid cell */
+
+        .grid-container img {
+            width: 150px; /* Set image width */
             height: auto; /* Maintain aspect ratio */
-            border: 2px solid #ddd; /* Optional: Border around images */
         }
     </style>
   </head>
 <body>
-<div class="container">
+<div class="grid-container">
   Adobo
   <img src="pic/images.jpeg" alt="images" >
  Sinigang
