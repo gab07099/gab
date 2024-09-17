@@ -50,24 +50,24 @@ border: 5px solid black;
 
 <head>
   <style>
-    li {
-      font-family: verdana;
-  font-size: 100;
-    }
-  </style>
-</head>
-
-  <head>
-  <style>
-        .image-container img {
-            display: inline-block;
-            margin: 5px; 
+        .container {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr); /
+            gap: 10px;
         }
+        .container img {
+            width: 100%;
+            height: auto;
+            border: 2px solid #ddd;
+        }
+        .container > div {
+            grid-column: span 6; 
     </style>
   </head>
 <body>
-    <div class="image-container">
-<br>
+    <div class="container">
+   <div>
+     
   <center>
   Adobo
   <img src="pic/images.jpeg" alt="images" lenght="200px" width="200px">
@@ -82,9 +82,10 @@ border: 5px solid black;
   T bone steak
  <img src="pic/images (5).jpeg" alt="images" lenght="200px" width="200px">
   </center>
+   </div>
 <br>
 <br>
-
+<div>
   <center>  
   <b>KALABASA</b>
    <img src="pic/images (6).jpeg" alt="images" lenght="200px" width="200px">
@@ -99,7 +100,9 @@ border: 5px solid black;
   Ampalaya
 <img src="pic/images (8).jpeg" alt="images" lenght="200px" width="200px">
     </div>
+    </div>
   
+    
   </center>
 </div>
 
