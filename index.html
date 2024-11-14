@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> SongRec! </title>
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to SongRec!</h1>
+        <p>Explore songs by genre or artist</p>
+    </header>
+
+
+    <main>
+<section id="recommendations">
+<h2>Choose a Genre</h2>
+<div id="genre-buttons">
+<button onclick="getPopSongs()">Pop</button>
+<button onclick="getRockSongs()">Rock</button>
+</div>
+
+ <h2>Choose an Artist</h2>
+<div class="artist-buttons-container">
+<div class="artist-column">
+<button onclick="getArtistSongs('MuniMuni')">MuniMuni</button>
+<button onclick="getArtistSongs('Ben&Ben')">Ben&Ben</button>
+</div>
+<div class="artist-column">
+<button onclick="getArtistSongs('WaveToEarth')">WaveToEarth</button>
+<button onclick="getArtistSongs('Daniel Caesar')">Daniel Caesar</button>
+<button onclick="getArtistSongs('Laufey')">Laufey</button>
+</div>
+</div>
+
+<h2>Song Recommendations</h2>
+<div id="song-list">
+
+</div>
+</section>
+    </main>
+
+
+    <footer>
+        <p>&copy; 2024 SongRec!. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    
+    <div id="recommendation-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <p>More recommendations coming in the future!</p>
+        </div>
+    </div>
+</body>
+</html>
