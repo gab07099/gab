@@ -34,6 +34,11 @@ const songData = {
             { name: 'Promise', artist: 'Laufey', url: 'https://www.youtube.com/watch?v=Yq6qkq_TWAM' },
             { name: 'Magnolia', artist: 'Laufey', url: 'https://www.youtube.com/watch?v=PiqXigZCugs' },
             { name: 'Letter To My 13 Year Old Self', artist: 'Laufey', url: 'https://www.youtube.com/watch?v=PEOwqZoDEGI' }
+
+       ],
+        'd4vd': [
+            { name: 'Here With Me', artist: 'd4vd', url: 'https://www.youtube.com/watch?v=Ip6cw8gfHHI' },
+            
         ]
     }
 };
