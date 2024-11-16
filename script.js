@@ -16,7 +16,7 @@ const songData = {
         ],
         'Ben&Ben': [
             { name: 'Sasusunod Na Habang Buhay', artist: 'Ben&Ben', url: 'https://www.youtube.com/watch?v=sIXgbBrzH9Q' },
-            { name: 'Araw Araw', artist: 'Ben&Ben', url: 'https://www.youtube.com/watch?v=AyWsiVm7yeE' },
+            { name: 'Araw Araw', artist: 'Ben&Ben', url: 'https://www.youtube.com/watch?v=V4qjAyb4lNI' },
             { name: 'Autumns', artist: 'Ben&Ben', url: 'https://www.youtube.com/watch?v=rr5-V1WcF5A' }
         ],
         'WaveToEarth': [
