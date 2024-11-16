@@ -11,8 +11,8 @@ const songData = {
     ],
     artists: {
         'MuniMuni': [
-            { name: 'Solomon', artist: 'MuniMuni', url: 'https://www.youtube.com/watch?v=k58D67bf2zY' },
-            { name: 'Bawat Piyesa', artist: 'MuniMuni', url: 'https://www.youtube.com/watch?v=icA5QGV9-Jk' }
+            { name: 'Solomon', artist: 'MuniMuni', url: 'https://www.youtube.com/watch?v=mmy858IPedw' },
+            { name: 'Bawat Piyesa', artist: 'MuniMuni', url: 'https://www.youtube.com/watch?v=vvFSVIy1Nqs' }
         ],
         'Ben&Ben': [
             { name: 'Sasusunod Na Habang Buhay', artist: 'Ben&Ben', url: 'https://www.youtube.com/watch?v=yB2J6kXxJIY' },
@@ -20,20 +20,20 @@ const songData = {
             { name: 'Autumn', artist: 'Ben&Ben', url: 'https://www.youtube.com/watch?v=xVxD-u1DhVQ' }
         ],
         'WaveToEarth': [
-            { name: 'Seasons', artist: 'WaveToEarth', url: 'https://www.youtube.com/watch?v=lUy_45uFZK8' },
-            { name: 'Love.', artist: 'WaveToEarth', url: 'https://www.youtube.com/watch?v=ioh9WzFHiH8' },
-            { name: 'Homesick', artist: 'WaveToEarth', url: 'https://www.youtube.com/watch?v=kK9iUB8H8Lg' },
-            { name: 'Bonfire', artist: 'WaveToEarth', url: 'https://www.youtube.com/watch?v=V4KvBHVnkMc' }
+            { name: 'Seasons', artist: 'WaveToEarth', url: 'https://www.youtube.com/watch?v=CnVVjLOGVoY' },
+            { name: 'Love.', artist: 'WaveToEarth', url: 'https://www.youtube.com/watch?v=Q49pnA4jsp8' },
+            { name: 'Homesick', artist: 'WaveToEarth', url: 'https://www.youtube.com/watch?v=UpU4VFDQNRk' },
+            { name: 'Bonfire', artist: 'WaveToEarth', url: 'https://www.youtube.com/watch?v=clMBbfA2HlY' }
         ],
         'Daniel Caesar': [
-            { name: 'Get You', artist: 'Daniel Caesar', url: 'https://www.youtube.com/watch?v=8g19Hj7F-J4' },
-            { name: 'Hold Me Down', artist: 'Daniel Caesar', url: 'https://www.youtube.com/watch?v=n_MaVZZHpnM' },
-            { name: 'Always', artist: 'Daniel Caesar', url: 'https://www.youtube.com/watch?v=Vee9dMmT4Zc' }
+            { name: 'Get You', artist: 'Daniel Caesar', url: 'https://www.youtube.com/watch?v=EQWKdwvXh-o' },
+            { name: 'Hold Me Down', artist: 'Daniel Caesar', url: 'https://www.youtube.com/watch?v=yn4eDLtH-NA' },
+            { name: 'Always', artist: 'Daniel Caesar', url: 'https://www.youtube.com/watch?v=pKFd12id5oQ' }
         ],
         'Laufey': [
-            { name: 'Promise', artist: 'Laufey', url: 'https://www.youtube.com/watch?v=7muZXyKwRWg' },
-            { name: 'Magnolia', artist: 'Laufey', url: 'https://www.youtube.com/watch?v=hg8dG4v_GGM' },
-            { name: 'Valentine', artist: 'Laufey', url: 'https://www.youtube.com/watch?v=XTOtTRv1_z8' }
+            { name: 'Promise', artist: 'Laufey', url: 'https://www.youtube.com/watch?v=Yq6qkq_TWAM' },
+            { name: 'Magnolia', artist: 'Laufey', url: 'https://www.youtube.com/watch?v=PiqXigZCugs' },
+            { name: 'Letter To My 13 Year Old Self', artist: 'Laufey', url: 'https://www.youtube.com/watch?v=PEOwqZoDEGI' }
         ]
     }
 };
