@@ -150,23 +150,7 @@ body {
     height: 100vh;
 }
 
-/* Optional: Feedback Section with Image Background */
-.feedback-section {
-    background-image: url('feedback-bg.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: white;
-}
 
-footer {
-  background-color: pink;
-  color: white;
-  text-align: center;
-  padding: 10px;
-  margin-top: auto;
-  
-}
 
 
 
