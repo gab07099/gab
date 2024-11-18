@@ -80,7 +80,7 @@ button:hover {
 /* Styling for the popup */
 .popup {
     display: none; /* Hidden by default */
-    position: fixed; /* Fixed position to stay in place */
+    position: center; /* Fixed position to stay in place */
     top: 0;
     left: 0;
     width: 100%;
@@ -101,7 +101,7 @@ button:hover {
 
 .popup-content h2 {
     font-size: 1.5rem;
-    color: white;
+    color: black;
 }
 
 /* Close button for the popup */
