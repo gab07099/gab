@@ -1,24 +1,18 @@
 body {
-    background-image: url('images/background.jpg'); /* Make sure the path to your image is correct */
-    background-size: cover; /* This ensures the image covers the entire viewport */
-    background-position: center; /* This centers the image */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
-    height: 100vh; /* Ensures the background takes up the full viewport height */
     font-family: Arial, sans-serif;
     color: ghostwhite;
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-
-.homepage-content {
-    text-align: center;
-    padding: 30px;
-    background: rgba(0, 0, 0, 0.7); /* You can change this as needed */
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
-    max-width: 600px;
-    margin: 20px;
+}    
+.feedback-page {
+    background-image: url('images/songrec-feedback-background.jpg'); /* Your desired background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: Arial, sans-serif;
 }
 
 /* HEADER */
