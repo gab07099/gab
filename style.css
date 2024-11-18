@@ -1,11 +1,11 @@
 body.homepage  {
-    background-image: url('images/homepage-background.jpg'); /* Path to your image */
+    background-image: url('images/background.jpg'); /* Path to your image */
     background-size: cover; /* Makes the image cover the entire screen */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
     height: 100vh; /* Makes the body take up the full height of the screen */
     font-family: Arial, sans-serif; /* Your preferred font */
-    color: white;
+    color: black;
     font-family: Arial, sans-serif;
     background-color: ghostwhite;
     margin: 0;
