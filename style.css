@@ -1,29 +1,36 @@
-body {
+body  .homepage {
+    background-image: url('images/homepage-background.jpg'); /* Path to your image */
+    background-size: cover; /* Makes the image cover the entire screen */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 100vh; /* Makes the body take up the full height of the screen */
+    font-family: Arial, sans-serif; /* Your preferred font */
+    color: white;
     font-family: Arial, sans-serif;
     background-color: ghostwhite;
     margin: 0;
     padding: 0;
 }
 
-header {
+header .homepage {
     background-color: pink;
     color: white;
     text-align: center;
     padding: 20px;
 }
 
-h1 {
+h1 .homepage {
     margin: 0;
 }
 
-#genre-buttons, #artist-buttons {
+#genre-buttons, #artist-buttons .homepage {
     display: flex;
     justify-content: center;
     gap: 10px;
     margin-bottom: 20px;
 }
 
-button {
+button .homepage {
     padding: 10px 20px;
     background-color: pink;
     color: white;
@@ -32,17 +39,17 @@ button {
     font-size: 16px;
 }
 
-button:hover {
+button:hover .homepage{
     background-color: pink;
 }
 
-#song-list {
+#song-list .homepage {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.song-item {
+.song-item .homepage {
     background-color: white;
     padding: 10px;
     margin: 10px;
@@ -51,7 +58,7 @@ button:hover {
     text-align: center;
 }
 
-.song-item a {
+.song-item  .homepage{
     text-decoration: none;
     color: black;
     font-weight: bold;
@@ -59,18 +66,18 @@ button:hover {
 }
 
 /* Style for Artist Buttons in Two Columns */
-.artist-buttons-container {
+.artist-buttons-container .homepage {
     display: flex;
     justify-content: center;
     gap: 20px;
 }
 
-.artist-column {
+.artist-column .homepage {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-footer {
+footer .homepage {
   background-color: pink;
   color: white;
   text-align: center;
