@@ -137,7 +137,7 @@ button:hover {
 .feedback-form button:hover {
     background-color: pink;
 }
-.feedback-page {
+body {
     background: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
         url('background-image.jpg');
     background-size: cover;
