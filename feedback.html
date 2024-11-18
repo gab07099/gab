@@ -28,6 +28,33 @@
         </form>
     </section>
 
+
+ <script>
+        // Function to validate the form
+        document.getElementById('feedback-form').addEventListener('submit', function(e) {
+            e.preventDefault(); // Prevent default form submission
+
+            // Get the form fields
+            var name = document.getElementById('name').value;
+            var email = document.getElementById('email').value;
+            var feedback = document.getElementById('feedback').value;
+
+            // Basic validation
+            if (name === '' || email === '' || feedback === '') {
+                // Show an alert if any field is empty
+                alert('Please fill out all fields before submitting!');
+                return false;
+            }
+
+            // If validation is successful, send the feedback (here we can just show a success message)
+            alert('Thank you for your feedback!');
+
+            // You can add the form submission here if you're using an API or a service like Formspree or EmailJS
+            // For now, we will reset the form after success
+            document.getElementById('feedback-form').reset();
+        });
+    </script>
+    
     <footer>
         <p>&copy; 2024 SongRec!. All rights reserved.</p>
     </footer>
