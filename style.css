@@ -7,7 +7,7 @@ body {
     align-items: center;
 }    
 .feedback-page {
-    background-image: url('images/songrec-feedback-background.jpg'); /* Your desired background image */
+    background-image: url('images/background.jpg'); /* Your desired background image */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
