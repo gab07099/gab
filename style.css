@@ -72,18 +72,13 @@ button:hover {
 }
 
 
-
-
-/* Apply Background Only for Feedback Page  */
-body.feedback-page {
-    background-image: url('images/songrec-feedback-background.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-    font-family: Arial, sans-serif;
+footer {
+    background-color: pink;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;    
 }
-
 
 
 
