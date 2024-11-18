@@ -40,6 +40,10 @@ const songData = {
             { name: 'Promise', artist: 'Laufey', url: 'https://www.youtube.com/watch?v=Yq6qkq_TWAM' },
             { name: 'Magnolia', artist: 'Laufey', url: 'https://www.youtube.com/watch?v=PiqXigZCugs' },
             { name: 'Valentine', artist: 'Laufey', url: 'https://www.youtube.com/watch?v=80Gf35I7n1w' }
+        ],
+        'd4vd': [
+            { name: 'Romantic Homicide', artist: 'd4vd', url: 'https://www.youtube.com/watch?v=eKL3TceSxvk' },
+            { name: 'Here With Me', artist: 'd4vd', url: 'https://www.youtube.com/watch?v=Ip6cw8gfHHI' }
         ]
     }
 };
