@@ -8,6 +8,11 @@ const songData = {
         { name: 'Bohemian Rhapsody', artist: 'Queen', url: 'https://www.youtube.com/watch?v=fJ9rUzIMcZQ' },
         { name: 'Smells Like Teen Spirit', artist: 'Nirvana', url: 'https://www.youtube.com/watch?v=hTWKbfoikeg' },
         { name: 'Stairway to Heaven', artist: 'Led Zeppelin', url: 'https://www.youtube.com/watch?v=qHFxncb1gRY' }
+       ],   
+    Metal: [
+        { name: 'Psychosocial ', artist: 'Slipknot', url: 'https://www.youtube.com/watch?v=5abamRO41fE' },
+        { name: 'Bodies', artist: 'Drowning Pool', url: 'https://www.youtube.com/watch?v=04F4xlWSFh0' },
+        { name: 'Custer', artist: 'Slipknot', url: 'https://www.youtube.com/watch?v=FdBqOCS8LmM' }
     ],
     artists: {
         'MuniMuni': [
