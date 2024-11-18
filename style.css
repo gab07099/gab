@@ -12,25 +12,25 @@ body  .homepage {
     padding: 0;
 }
 
-header .homepage {
+header  {
     background-color: pink;
     color: white;
     text-align: center;
     padding: 20px;
 }
 
-h1 .homepage {
+h1  {
     margin: 0;
 }
 
-#genre-buttons, #artist-buttons .homepage {
+#genre-buttons, #artist-buttons  {
     display: flex;
     justify-content: center;
     gap: 10px;
     margin-bottom: 20px;
 }
 
-button .homepage {
+button {
     padding: 10px 20px;
     background-color: pink;
     color: white;
@@ -39,17 +39,17 @@ button .homepage {
     font-size: 16px;
 }
 
-button:hover .homepage{
+button:hover {
     background-color: pink;
 }
 
-#song-list .homepage {
+#song-list {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.song-item .homepage {
+.song-item {
     background-color: white;
     padding: 10px;
     margin: 10px;
@@ -58,7 +58,7 @@ button:hover .homepage{
     text-align: center;
 }
 
-.song-item  .homepage{
+.song-item {
     text-decoration: none;
     color: black;
     font-weight: bold;
@@ -66,18 +66,18 @@ button:hover .homepage{
 }
 
 /* Style for Artist Buttons in Two Columns */
-.artist-buttons-container .homepage {
+.artist-buttons-container {
     display: flex;
     justify-content: center;
     gap: 20px;
 }
 
-.artist-column .homepage {
+.artist-column {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-footer .homepage {
+footer {
   background-color: pink;
   color: white;
   text-align: center;
