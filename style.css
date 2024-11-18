@@ -4,7 +4,7 @@ body.homepage  {
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
     height: 100vh; /* Makes the body take up the full height of the screen */
-    color: white;
+    color: black;
     font-family: Arial, sans-serif;
     background-color: ghostwhite;
     margin: 0;
