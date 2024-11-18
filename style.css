@@ -87,9 +87,9 @@ footer {
     box-sizing: border-box;
 }
 
-/* Body Styling for Feedback Page (No Background Image) */
+
 body.feedback-page {
-    background-color: #f0f0f0; /* Solid background color for feedback page */
+    background-color: #f0f0f0; 
     height: 100vh;
     font-family: Arial, sans-serif;
     color: black;
@@ -104,7 +104,7 @@ body.feedback-page {
     max-width: 500px;
     margin: 30px auto;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for readability */
+    background-color: rgba(0, 0, 0, 0.7);
     border-radius: 10px;
     color: white;
 }
