@@ -9,6 +9,11 @@ const songData = {
         { name: 'Smells Like Teen Spirit', artist: 'Nirvana', url: 'https://www.youtube.com/watch?v=hTWKbfoikeg' },
         { name: 'Stairway to Heaven', artist: 'Led Zeppelin', url: 'https://www.youtube.com/watch?v=qHFxncb1gRY' }
     ],
+    HeavyMetal: [
+            { name: 'Psychosocial', artist: 'Slipknot', url: 'https://www.youtube.com/watch?v=5abamRO41fE' },
+            { name: 'Evanescence', artist: 'Bring Me To Life', url: 'https://www.youtube.com/watch?v=3YxaaGgTQYM' }
+        
+    ],
     artists: {
         'MuniMuni': [
             { name: 'Solomon', artist: 'MuniMuni', url: 'https://www.youtube.com/watch?v=mmy858IPedw' },
@@ -37,7 +42,7 @@ const songData = {
 
        ],
         'd4vd': [
-            { name: 'Here With Me', artist: 'd4vd', url: 'https://www.youtube.com/watch?v=Ip6cw8gfHHI' }
+            { name: 'Here With Me', artist: 'd4vd', url: 'https://www.youtube.com/watch?v=Ip6cw8gfHHI' },
             { name: 'Roamntic Homicide', artist: 'd4vd', url: 'https://www.youtube.com/watch?v=eKL3TceSxvk' }
             
           ]
