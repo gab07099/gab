@@ -80,6 +80,7 @@ footer {
 }
 
 
+/* Feedback Section Styles */
 .feedback-section {
     max-width: 600px;
     margin: 50px auto;
@@ -141,5 +142,12 @@ footer {
 
 .feedback-form button:hover {
     background-color: #ff8989;
+}
+
+/* Footer Styles */
+footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #888;
 }
 
