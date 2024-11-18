@@ -19,7 +19,10 @@ header  {
 }
  
 h1  {
-    margin: 0;
+    background-color: pink;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
 
 #genre-buttons, #artist-buttons  {
