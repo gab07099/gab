@@ -7,25 +7,18 @@
 </head>
 <body>
 
- 
-
-       <h2><a href="feedback.html">Feedback</a></h2> 
-   
-
     <header>
         <h1>Welcome to SongRec!</h1>
-        <p>Songs YOU might like :)</p>
+        <p>Song YOU might like :) </p>
     </header>
 
 
-  
     <main>
 <section id="recommendations">
 <h2>Choose a Genre</h2>
 <div id="genre-buttons">
 <button onclick="getPopSongs()">Pop</button>
 <button onclick="getRockSongs()">Rock</button>
-<button onclick="getHeavyMetalSongs()">Heavy Metal</button>
 </div>
 
  <h2>Choose an Artist</h2>
@@ -33,13 +26,11 @@
 <div class="artist-column">
 <button onclick="getArtistSongs('MuniMuni')">MuniMuni</button>
 <button onclick="getArtistSongs('Ben&Ben')">Ben&Ben</button>
-<button onclick="getArtistSongs('d4vd')">d4vd</button>
 </div>
 <div class="artist-column">
 <button onclick="getArtistSongs('WaveToEarth')">WaveToEarth</button>
 <button onclick="getArtistSongs('Daniel Caesar')">Daniel Caesar</button>
 <button onclick="getArtistSongs('Laufey')">Laufey</button>
-
 </div>
 </div>
 
@@ -57,6 +48,11 @@
 
     <script src="script.js"></script>
     
-
+    <div id="recommendation-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <p>More recommendations coming in the future!</p>
+        </div>
+    </div>
 </body>
 </html>

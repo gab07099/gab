@@ -9,43 +9,32 @@ const songData = {
         { name: 'Smells Like Teen Spirit', artist: 'Nirvana', url: 'https://www.youtube.com/watch?v=hTWKbfoikeg' },
         { name: 'Stairway to Heaven', artist: 'Led Zeppelin', url: 'https://www.youtube.com/watch?v=qHFxncb1gRY' }
     ],
-    HeavyMetal: [
-            { name: 'Psychosocial', artist: 'Slipknot', url: 'https://www.youtube.com/watch?v=5abamRO41fE' },
-            { name: 'Evanescence', artist: 'Bring Me To Life', url: 'https://www.youtube.com/watch?v=3YxaaGgTQYM' }
-        
-    ],
     artists: {
         'MuniMuni': [
-            { name: 'Solomon', artist: 'MuniMuni', url: 'https://www.youtube.com/watch?v=mmy858IPedw' },
-            { name: 'Bawat Piyesa', artist: 'MuniMuni', url: 'https://www.youtube.com/watch?v=vvFSVIy1Nqs' }
+            { name: 'Solomon', artist: 'MuniMuni', url: 'https://www.youtube.com/watch?v=k58D67bf2zY' },
+            { name: 'Bawat Piyesa', artist: 'MuniMuni', url: 'https://www.youtube.com/watch?v=icA5QGV9-Jk' }
         ],
         'Ben&Ben': [
-            { name: 'Sasusunod Na Habang Buhay', artist: 'Ben&Ben', url: 'https://www.youtube.com/watch?v=yB2J6kXxJIY' },
-            { name: 'Araw Araw', artist: 'Ben&Ben', url: 'https://www.youtube.com/watch?v=V4qjAyb4lNI' },
-            { name: 'Autumn', artist: 'Ben&Ben', url: 'https://www.youtube.com/watch?v=xVxD-u1DhVQ' }
+            { name: 'Sasusunod Na Habang Buhay', artist: 'Ben&Ben', url: 'https://www.youtube.com/watch?v=sIXgbBrzH9Q' },
+            { name: 'Araw Araw', artist: 'Ben&Ben', url: 'https://www.youtube.com/watch?v=AyWsiVm7yeE' },
+            { name: 'Autumns', artist: 'Ben&Ben', url: 'https://www.youtube.com/watch?v=rr5-V1WcF5A' }
         ],
         'WaveToEarth': [
-            { name: 'Seasons', artist: 'WaveToEarth', url: 'https://www.youtube.com/watch?v=CnVVjLOGVoY' },
-            { name: 'Love.', artist: 'WaveToEarth', url: 'https://www.youtube.com/watch?v=Q49pnA4jsp8' },
-            { name: 'Homesick', artist: 'WaveToEarth', url: 'https://www.youtube.com/watch?v=UpU4VFDQNRk' },
-            { name: 'Bonfire', artist: 'WaveToEarth', url: 'https://www.youtube.com/watch?v=clMBbfA2HlY' }
+            { name: 'Seasons', artist: 'WaveToEarth', url: 'https://www.youtube.com/watch?v=lUy_45uFZK8' },
+            { name: 'Love.', artist: 'WaveToEarth', url: 'https://www.youtube.com/watch?v=ioh9WzFHiH8' },
+            { name: 'Homesick', artist: 'WaveToEarth', url: 'https://www.youtube.com/watch?v=kK9iUB8H8Lg' },
+            { name: 'Bonfire', artist: 'WaveToEarth', url: 'https://www.youtube.com/watch?v=V4KvBHVnkMc' }
         ],
         'Daniel Caesar': [
-            { name: 'Get You', artist: 'Daniel Caesar', url: 'https://www.youtube.com/watch?v=EQWKdwvXh-o' },
-            { name: 'Hold Me Down', artist: 'Daniel Caesar', url: 'https://www.youtube.com/watch?v=yn4eDLtH-NA' },
-            { name: 'Always', artist: 'Daniel Caesar', url: 'https://www.youtube.com/watch?v=pKFd12id5oQ' }
+            { name: 'Get You', artist: 'Daniel Caesar', url: 'https://www.youtube.com/watch?v=8g19Hj7F-J4' },
+            { name: 'Hold Me Down', artist: 'Daniel Caesar', url: 'https://www.youtube.com/watch?v=n_MaVZZHpnM' },
+            { name: 'Always', artist: 'Daniel Caesar', url: 'https://www.youtube.com/watch?v=Vee9dMmT4Zc' }
         ],
         'Laufey': [
-            { name: 'Promise', artist: 'Laufey', url: 'https://www.youtube.com/watch?v=Yq6qkq_TWAM' },
-            { name: 'Magnolia', artist: 'Laufey', url: 'https://www.youtube.com/watch?v=PiqXigZCugs' },
-            { name: 'Letter To My 13 Year Old Self', artist: 'Laufey', url: 'https://www.youtube.com/watch?v=PEOwqZoDEGI' }
-
-       ],
-        'd4vd': [
-            { name: 'Here With Me', artist: 'd4vd', url: 'https://www.youtube.com/watch?v=Ip6cw8gfHHI' },
-            { name: 'Roamntic Homicide', artist: 'd4vd', url: 'https://www.youtube.com/watch?v=eKL3TceSxvk' }
-            
-          ]
+            { name: 'Promise', artist: 'Laufey', url: 'https://www.youtube.com/watch?v=7muZXyKwRWg' },
+            { name: 'Magnolia', artist: 'Laufey', url: 'https://www.youtube.com/watch?v=hg8dG4v_GGM' },
+            { name: 'Valentine', artist: 'Laufey', url: 'https://www.youtube.com/watch?v=XTOtTRv1_z8' }
+        ]
     }
 };
 
@@ -83,8 +72,4 @@ function getRockSongs() {
 
 function getArtistSongs(artist) {
     displaySongs(songData.artists[artist]);
-} 
-
-
-
-
+}
