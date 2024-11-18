@@ -79,3 +79,25 @@ function getRockSongs() {
 function getArtistSongs(artist) {
     displaySongs(songData.artists[artist]);
 }
+
+// Get the popup and button elements
+const popup = document.getElementById('popup');
+const showPopupBtn = document.getElementById('showPopupBtn');
+const closePopupBtn = document.getElementById('closePopupBtn');
+
+// Show the popup when the button is clicked
+showPopupBtn.onclick = function() {
+    popup.style.display = 'flex';
+}
+
+// Close the popup when the close button is clicked
+closePopupBtn.onclick = function() {
+    popup.style.display = 'none';
+}
+
+// Optionally, close the popup if the user clicks outside the popup content
+window.onclick = function(event) {
+    if (event.target == popup) {
+        popup.style.display = 'none';
+    }
+}
