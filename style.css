@@ -15,9 +15,6 @@ header {
     padding: 20px;
 }
 
-h1 {
-    margin: 0;
-}
 
 #genre-buttons, #artist-buttons {
     display: flex;
@@ -144,6 +141,16 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
+}
+
+/* Apply Background Only for Feedback Page  */
+body.feedback-page {
+    background-image: url('images/songrec-feedback-background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: Arial, sans-serif;
 }
 
 
