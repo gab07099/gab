@@ -7,29 +7,22 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<h2><a href="index.html">Home</a></h2>
-    
+
     <!-- Feedback Section -->
-    <section class="feedback-section">
-        <h2>We Value Your Feedback!</h2>
-        <p>Let us know what you think about SongRec.</p>
+    <section id="feedback" class="section">
+        <h2>Feedback</h2>
+        <p>Your feedback is important to us! Please let us know your thoughts.</p>
 
-        <form class="feedback-form" action="#" method="post">
-            <label for="name">Your Name:</label>
-            <input type="text" id="name" name="name" placeholder="Enter your name" required>
-
-            <label for="email">Your Email:</label>
-            <input type="email" id="email" name="email" placeholder="Enter your email" required>
-
-            <label for="message">Your Feedback:</label>
-            <textarea id="message" name="message" rows="4" placeholder="Share your thoughts" required></textarea>
-
+        <!-- Feedback Form -->
+        <form id="feedback-form" class="feedback-form">
+            <input type="text" name="name" id="name" placeholder="Your Name" required>
+            <input type="email" name="email" id="email" placeholder="Your Email" required>
+            <textarea name="feedback" id="feedback" placeholder="Enter your feedback..." required></textarea>
             <button type="submit">Submit Feedback</button>
         </form>
     </section>
 
-
- <script>
+    <script>
         // Function to validate the form
         document.getElementById('feedback-form').addEventListener('submit', function(e) {
             e.preventDefault(); // Prevent default form submission
@@ -54,9 +47,7 @@
             document.getElementById('feedback-form').reset();
         });
     </script>
-    
-    <footer>
-        <p>&copy; 2024 SongRec!. All rights reserved.</p>
-    </footer>
+
 </body>
 </html>
+
