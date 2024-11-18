@@ -1,13 +1,10 @@
 body {
     font-family: Arial, sans-serif;
-    color: ghostwhite;
+    background-color: ghostwhite;
     margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}    
+    padding: 0;
+}
 
-/* HEADER */
 header {
     background-color: pink;
     color: white;
@@ -15,6 +12,9 @@ header {
     padding: 20px;
 }
 
+h1 {
+    margin: 0;
+}
 
 #genre-buttons, #artist-buttons {
     display: flex;
@@ -43,7 +43,7 @@ button:hover {
 }
 
 .song-item {
-    background-color: pink;
+    background-color: white;
     padding: 10px;
     margin: 10px;
     border-radius: 5px;
@@ -58,7 +58,7 @@ button:hover {
     
 }
 
-
+/* Style for Artist Buttons in Two Columns */
 .artist-buttons-container {
     display: flex;
     justify-content: center;
@@ -70,18 +70,11 @@ button:hover {
     flex-direction: column;
     gap: 10px;
 }
-
-
 footer {
-    background-color: pink;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    margin-top: auto;    
+  background-color: pink;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: auto;
+  
 }
-
-
-
-
-
-
