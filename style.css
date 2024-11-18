@@ -5,6 +5,13 @@ body {
     padding: 0;
 }
 
+body {
+    background-image: url('background');
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-repeat: no-repeat; /* Prevents tiling */
+    background-position: center; /* Centers the image */
+}
+
 header {
     background-color: pink;
     color: white;
