@@ -1,5 +1,5 @@
 body {
-    background-image: url('images/backgroundbackground.jpg'); /* Make sure the path to your image is correct */
+    background-image: url('images/background.jpg'); /* Make sure the path to your image is correct */
     background-size: cover; /* This ensures the image covers the entire viewport */
     background-position: center; /* This centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
