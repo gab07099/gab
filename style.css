@@ -51,7 +51,7 @@ button:hover {
 }
 
 .song-item {
-    background-color: white;
+    background-color: pink;
     padding: 10px;
     margin: 10px;
     border-radius: 5px;
@@ -91,12 +91,12 @@ button:hover {
 }
 
 .feedback-section h2 {
-    color: #ff5c5c;
+    color: pink;
     margin-bottom: 10px;
 }
 
 .feedback-section p {
-    color: #666;
+    color: pink;
     margin-bottom: 20px;
 }
 
@@ -108,7 +108,7 @@ button:hover {
 .feedback-form label {
     text-align: left;
     margin-bottom: 5px;
-    color: #333;
+    color: pink;
     font-weight: bold;
 }
 
@@ -116,7 +116,7 @@ button:hover {
 .feedback-form textarea {
     padding: 12px;
     margin-bottom: 15px;
-    border: 2px solid #ff5c5c;
+    border: 2px solid pink;
     border-radius: 8px;
     font-size: 16px;
     width: 100%;
@@ -125,7 +125,7 @@ button:hover {
 .feedback-form input:focus,
 .feedback-form textarea:focus {
     outline: none;
-    border-color: #ff8989;
+    border-color: pink;
 }
 
 .feedback-form button {
@@ -140,7 +140,7 @@ button:hover {
 }
 
 .feedback-form button:hover {
-    background-color: #ff8989;
+    background-color: pink;
 }
 body {
     background: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
