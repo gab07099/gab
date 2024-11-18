@@ -86,17 +86,5 @@ function getArtistSongs(artist) {
 } 
 
 
-<script>
-document.querySelector('.feedback-form').addEventListener('submit', function(event) {
-    const name = document.getElementById('name').value.trim();
-    const email = document.getElementById('email').value.trim();
-    const message = document.getElementById('message').value.trim();
 
-    if (!name || !email || !message) {
-        alert('Please fill in all fields.');
-        event.preventDefault(); // Prevent form submission
-    } else {
-        alert('Thank you for your feedback!');
-    }
-});
-</script>
+
