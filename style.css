@@ -95,7 +95,7 @@ button:hover {
 }
 
 .popup-content {
-    background-color: white;
+    background-color: black;
     padding: 20px;
     border-radius: 10px;
     width: 80%;
@@ -104,13 +104,13 @@ button:hover {
 
 .popup-content h2 {
     font-size: 1.5rem;
-    color: #333;
+    color: black;
 }
 
 /* Close button for the popup */
 .close-btn {
     font-size: 2rem;
-    color: #333;
+    color: black;
     cursor: pointer;
     position: absolute;
     top: 10px;
