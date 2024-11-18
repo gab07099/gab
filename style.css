@@ -80,74 +80,63 @@ footer {
 }
 
 
-/* Feedback Section Styles */
-.feedback-section {
-    max-width: 600px;
-    margin: 50px auto;
-    padding: 30px;
-    background-color: #ffffff;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.feedback-section h2 {
-    color: #ff5c5c;
-    margin-bottom: 10px;
-}
-
-.feedback-section p {
-    color: #666;
-    margin-bottom: 20px;
-}
-
-.feedback-form {
+/* Body Styling for Feedback Page (No Background Image) */
+body.feedback-page {
+    background-color: #f0f0f0; /* Solid background color for feedback page */
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    color: black;
+    margin: 0;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.feedback-form label {
-    text-align: left;
-    margin-bottom: 5px;
-    color: #333;
-    font-weight: bold;
+/* Feedback Form Styling */
+.feedback-form {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for readability */
+    border-radius: 10px;
+    color: white;
+}
+
+.feedback-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .feedback-form input,
 .feedback-form textarea {
-    padding: 12px;
-    margin-bottom: 15px;
-    border: 2px solid #ff5c5c;
-    border-radius: 8px;
-    font-size: 16px;
     width: 100%;
-}
-
-.feedback-form input:focus,
-.feedback-form textarea:focus {
-    outline: none;
-    border-color: #ff8989;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #222;
+    color: white;
 }
 
 .feedback-form button {
-    background-color: #ff5c5c;
-    color: #fff;
-    padding: 12px;
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
     border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    font-weight: bold;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.2rem;
     transition: background-color 0.3s ease;
 }
 
 .feedback-form button:hover {
-    background-color: #ff8989;
+    background-color: #0056b3;
+    cursor: pointer;
 }
-
-/* Footer Styles */
-footer {
-    margin-top: 20px;
-    text-align: center;
-    color: #888;
-}
-
